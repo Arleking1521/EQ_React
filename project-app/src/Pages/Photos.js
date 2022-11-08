@@ -11,8 +11,8 @@ export default class About extends Component {
                 <style type='text/css'>
                     {`
                 main{
-                    padding-top: 50px;
-                    padding-bottom: 50px;
+                    padding-top: 100px;
+                    padding-bottom: 100px;
                     background-color: rgb(250, 250, 250);
                 }
                 .photo{
