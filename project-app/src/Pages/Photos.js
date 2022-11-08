@@ -11,9 +11,6 @@ export default class About extends Component {
                 <style type='text/css'>
                     {`
                 main{
-    
-                    padding-right: 20%;
-                    padding-left: 20%;
                     padding-top: 50px;
                     padding-bottom: 50px;
                     background-color: rgb(250, 250, 250);
@@ -72,7 +69,7 @@ export default class About extends Component {
                 }
             `}
                 </style>
-                <main>
+                <Container className='main'>
                     <h1 className="text_ph">PHOTOS FROM OUR GAMES:</h1>
                     <div className="photos">
                         <div className="photo">
@@ -94,7 +91,7 @@ export default class About extends Component {
                             <button>OPEN ALBUM</button>
                         </div>
                     </div>
-                </main>
+                </Container>
             </>
         )
     }
