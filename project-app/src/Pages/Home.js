@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from 'react-bootstrap';
-import Logo from '../images/logo.png'
+import Logo from '../images/logo.png';
+import Pop_up from '../Components/Pop_up';
 
 import HP from '../images/Harry.jpg';
 import Scrubs from '../images/scrubs.jpg';
@@ -68,13 +69,13 @@ export default class Home extends Component {
               width: 200px;
               transition: 1s;
               box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-              z-index:999999;
+              z-index:9;
               box-shadow: 10px 10px 0px rgb(247, 161, 2), -10px -10px 0px rgb(199, 0, 0);
             }
             .games:active{
               transform: scale(2.0);
               overflow: hidden;
-                z-index:9999999;
+                z-index:9;
             }
             .game{
               width: 100%;
@@ -133,13 +134,16 @@ export default class Home extends Component {
               <div className="games"><img src={HP} className="game" /></div>
               <div className="games"><img src={ff} className="game" /></div>
             </div>
-            <div className="buttons">
-              <button className="log_in" >BOOKING</button>
-              <button className="log_in" >BOOKING</button>
-              <button className="log_in" >BOOKING</button>
-              <button className="log_in" >BOOKING</button>
+            <div className='buttons'>
+              <Pop_up name='Scrubs' />
+              <Pop_up name='Helloween Quiz' />
+              <Pop_up name='Harry Potter' />
+              <Pop_up name='Fast&Furius' />
             </div>
+
           </div>
+
+
         </Container>
       </>
     )
