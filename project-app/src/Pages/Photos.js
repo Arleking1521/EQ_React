@@ -10,9 +10,7 @@ export default class About extends Component {
             <>
                 <style type='text/css'>
                     {`
-                main{
-                    margin-left: 20%;
-                    margin-right: 20%;
+                .main{
                     padding-top: 100px;
                     padding-bottom: 100px;
                     background-color: rgb(250, 250, 250);
