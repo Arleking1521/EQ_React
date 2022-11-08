@@ -13,7 +13,7 @@ export default class About extends Component {
                 .main{
                     padding-top: 100px;
                     padding-bottom: 100px;
-                    background-color: rgb(250, 250, 250);
+                    background-color: white;
                 }
                 .photo{
                     background: linear-gradient(to top left, rgb(255, 162, 162), rgb(248, 207, 131));
